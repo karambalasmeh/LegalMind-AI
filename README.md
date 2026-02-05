@@ -87,6 +87,3 @@ Training scripts use Unsloth for efficient fine-tuning:
 └── data/             # Datasets (gitignored)
 ```
 
-## License
-
-MIT
