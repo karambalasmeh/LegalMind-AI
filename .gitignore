@@ -1,0 +1,53 @@
+# --- Python Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.DS_Store
+
+# --- Large AI Models (Critical) ---
+# بنمنع رفع الموديلات لأن حجمها كبير جداً لـ GitHub
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# --- Next.js Frontend ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# Neo4j Database Files (DO NOT UPLOAD)
+neo4j_data/
+data/
+transactions/
+
+# Training Checkpoints (Huge Files - DO NOT UPLOAD)
+outputs/
+outputs_full/
+unsloth_compiled_cache/
+
+# Misc
+*.bak
+
+# Ignore huge training files
+outputs/
+outputs_full/
+unsloth_compiled_cache/
+*.safetensors
+*.bin
+*.pth
